@@ -17,11 +17,7 @@ Le kata consiste à écrire une application qui permet de faire les 4 opération
  - 4/7 * 2/7 = 8/49
  - 4/7 / 2/7 = 2
 
-## Help
 
- - [Fration calculator](https://www.calculator.net/fraction-calculator.html)
- - [Cours :Opérations sur les factions](https://www.hec.ca/cams/rubriques/Operations_fractions.pdf)
- - [Cours :Plus grand diviseur commun](https://www.educastream.com/fr/plus-grand-commun-diviseur-3eme)
 
 ## Going further
 
