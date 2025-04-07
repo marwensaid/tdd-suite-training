@@ -7,18 +7,11 @@ public class Stack {
 
     List<Integer> values = new ArrayList<>();
 
-    public boolean isEmpty() {
-        return values.isEmpty();
-    }
 
     public void push(int valueToAdd) {
-        values.add(valueToAdd);
     }
 
     public int pop() {
-        if (values.isEmpty()) {
-            throw new PopOnEmptyStackException();
-        }
-        return values.removeLast();
+        return 0;
     }
 }
