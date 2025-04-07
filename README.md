@@ -1,48 +1,4 @@
-# Entrainement au Test Driven Development
-
-Oui c'est en Français ! (Et c'est voulu :D)  
-Ce repository a pour but de s'exercer au test driven development à travers des exemples (katas), qui, je l'espère, sauront vous divertir.   
-
-## Comment ?
-
-Pour vous entrainer, rien de plus simple !  
-1. Cliquez sur le lien ci-dessous de l'exercice que vous souhaiter faire.
-2. Si vous avez cloné ce repo supprimez la classe et celle de test associée
-3. Suivez les instructions ;) (En commençant par développer un test bien entendu :D)
-4. Have Fun !
-
-## Exercices proposés
-
-**Découvrir**
-1. [Stack](src/main/java/io/github/tddsuitetraining/stack/README.md)
-
-**Facile**
-1. [FizzBuzz](src/main/java/io/github/tddsuitetraining/FizzBuzz/README.md)
-2. [Thermometer](src/main/java/io/github/tddsuitetraining/Thermometer/README.md)
-2. [PrimeFactors](src/main/java/io/github/tddsuitetraining/PrimeFactors/README.md)
-3. [LeapYears](src/main/java/io/github/tddsuitetraining/LeapYears/README.md)
-4. [DictionaryReplacer](src/main/java/io/github/tddsuitetraining/DictionaryReplacer/README.md)
-5. [EmployeeReport](src/main/java/io/github/tddsuitetraining/EmployeeReport/README.md)
-6. [ChristmasLight](src/main/java/io/github/tddsuitetraining/ChristmasLight/README.md)
-7. [Wardrobe](src/main/java/io/github/tddsuitetraining/Wardrobe/README.md)
-7. [Fraction](src/main/java/io/github/tddsuitetraining/Fraction/README.md)
-8. [Bonjour](src/main/java/io/github/tddsuitetraining/Bonjour/README.md)
-9. 🚧 
-
-**Moyen**
-1. [Diseur](src/main/java/io/github/tddsuitetraining/Diseur/README.md)
-1. [BowlingGame](src/main/java/io/github/tddsuitetraining/BowlingGame/README.md)
-2. [Diamond](src/main/java/io/github/tddsuitetraining/Diamond/README.md)
-3. [RomanNumerals](src/main/java/io/github/tddsuitetraining/RomanNumerals/README.md)
-4. [StringCalculator](src/main/java/io/github/tddsuitetraining/StringCalculator/README.md)
-5. [WordWrap](src/main/java/io/github/tddsuitetraining/WordWrap/README.md)
-6. [TennisScore](src/main/java/io/github/tddsuitetraining/TennisGame/README.md)
-7. [Potter](src/main/java/io/github/tddsuitetraining/Potter/README.md)
-8. 🚧 
-
-**Difficile**
-1. [BowlingGameHardcore](src/main/java/io/github/tddsuitetraining/BowlingGameHardcore/README.md)
-2. 🚧 
+# Test Driven Development
 
 ## Qu'est-ce que le Test driven Development ?
 
@@ -88,7 +44,7 @@ Il peut être décrit succinctement par l'ensemble des règles suivantes :
 #### Se focaliser d'abord sur les cas simples
 
 D'abord se focaliser sur les cas simples.
-Par exemple dans le cas de [FizzBuzz](src/main/java/io/github/tddsuitetraining/FizzBuzz/README.md), nous commençons par les chiffres non compris dans les règles à implémenter => 1 & 2.
+Par exemple dans le cas de FizzBuzz, nous commençons par les chiffres non compris dans les règles à implémenter => 1 & 2.
 
 #### Comportement / Behavior
 
@@ -111,24 +67,3 @@ Attention cela ne signifie pas que l'on ne test qu'une seule fonction avec un te
 
 Après avoir implémenté une règle métier / un test (avec Red-Green-Refactor), assurez-vous de trouver toutes les "bizarreries" ou non-généralités dans le code de production et éliminez-les une par une en écrivant un test qui prouve cette non-généralité.
 Assurez-vous de tester les cas à la marge !
-
-#### Pause ? Laisser un test qui ne passe pas
-
-Si vous souhaitez faire une pause, reprendre le kata plus tard, je vous conseille de laisser un test qui ne passe pas.  
-Celui-ci vous permettra de retrouver facilement où vous en étiez.
-
-#### Le papier
-
-Personnellement, j'aime le support papier et m'en sers quotidiennement. Pour ce qui est de la réalisation des katas je ne peux que conseiller de s'en servir. Cela peut parfois s'avérer très utile pour garder en tête les règles clés, dessiner des choses (Cf. Kata Christmas Light), noter pour se souvenir / ne pas oublier...
-
-### Quelques ressources
-
- - [Wikipedia](https://fr.wikipedia.org/wiki/Test_driven_development)
- - [OpenClassroom](https://openclassrooms.com/fr/courses/3504461-testez-linterface-de-votre-site/4270571-apprenez-le-test-driven-development-tdd)
- - [Apprendre le TDD par IPPON](https://blog.ippon.fr/2020/02/12/apprendre-le-tdd/)
- - [Vidéo : Comment faire du TDD](https://www.youtube.com/watch?v=wbZ6jWmRY14)
- - [Video : TDD par l'exemple](https://www.youtube.com/watch?v=nbSaq_ykOl4)
-
-### Note
-
-De plus, le TDD permet de ne pas se retrouver dans cette situation :
